@@ -21,7 +21,7 @@ if($_SESSION['level']=="admin"){
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin - RenFlix</title>
+    <title>Админ - Movie-BOX</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -78,7 +78,7 @@ if($_SESSION['level']=="admin"){
                                                 <?php echo $_SESSION['username']; ?>
                                             </strong>
                                         </h5>
-                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Өчигдөр 16:32 цагт
                                         </p>
                                         <p>Lorem ipsum dolor sit amet, consectetur...</p>
                                     </div>
@@ -95,7 +95,7 @@ if($_SESSION['level']=="admin"){
                     <ul class="dropdown-menu">
                         <li class="divider"></li>
                         <li>
-                            <a href="../logout.php"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                            <a href="../logout.php"><i class="fa fa-fw fa-power-off"></i>Гарах</a>
                         </li>
                     </ul>
                 </li>
@@ -106,34 +106,34 @@ if($_SESSION['level']=="admin"){
                     <div class="navbar-header" style="margin-bottom: 1.5em;">
                         <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-ex1-collapse">
-                            <span class="sr-only">Toggle navigation</span>
+                            <span class="sr-only">Навигацыг асаах/унтраах</span>
                         </button>
                         <a class="navbar-brand" href="../user/index.php"><img src="../assets/img/logo.png" width="30"
-                                height="30" alt="">RenFlix Admin</a>
+                                height="30" alt="">Movie-BOX админ</a>
                     </div>
                     <li class="active">
-                        <a href="admin.php?p="><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        <a href="admin.php?p="><i class="fa fa-fw fa-dashboard"></i> Хяналтын самбар</a>
                     </li>
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-book"></i>
-                            Panel Admin <i class="fa fa-fw fa-caret-down"></i></a>
+                        Самбарын админ <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="admin.php?p=registry-admin"><i class="fa fa-fw fa-vcard"></i> Register
-                                    Account</a>
+                                <a href="admin.php?p=registry-admin"><i class="fa fa-fw fa-vcard"></i> Бүртгэлийн
+                                Данс</a>
                             </li>
                             <li>
-                                <a href="admin.php?p=registry-genre"><i class="fa fa-fw fa-edit"></i> Registry Genre</a>
+                                <a href="admin.php?p=registry-genre"><i class="fa fa-fw fa-edit"></i> Бүртгэлийн төрөл</a>
                             </li>
                             <li>
-                                <a href="admin.php?p=registry-category"><i class="fa fa-fw fa-desktop"></i> Registry
-                                    Category</a>
+                                <a href="admin.php?p=registry-category"><i class="fa fa-fw fa-desktop"></i> Бүртгэлийн
+                                Ангилал</a>
                             </li>
                             <li>
-                                <a href="admin.php?p=registry-movie"><i class="fa fa-fw fa-film"></i> Movie List</a>
+                                <a href="admin.php?p=registry-movie"><i class="fa fa-fw fa-film"></i> Киноны жагсаалт</a>
                             </li>
                             <li>
-                                <a href="admin.php?p=registry-newmovie"><i class="fa fa-fw fa-film"></i> Coming Soon Movie</a>
+                                <a href="admin.php?p=registry-newmovie"><i class="fa fa-fw fa-film"></i> Тун удахгүй кино</a>
                             </li>
                         </ul>
                     </li>
@@ -161,7 +161,7 @@ if($_SESSION['level']=="admin"){
                         </ul>
                     </li> -->
                     <li>
-                        <a href="admin.php?p=project-info"><i class="fa fa-fw fa-file"></i> Project Information</a>
+                        <a href="admin.php?p=project-info"><i class="fa fa-fw fa-file"></i> Төслийн мэдээлэл</a>
                     </li>
                 </ul>
             </div>
@@ -192,7 +192,7 @@ if($_SESSION['level']=="admin"){
         </div>
         <!-- Footer -->
         <footer>
-            <p>Copyright &copy; 2022. RenFlix.</p>
+            <p>Copyright &copy; 2024. Movie-BOX.</p>
         </footer>
         <!-- /#page-wrapper -->
 

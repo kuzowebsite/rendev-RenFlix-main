@@ -6,9 +6,9 @@
             <div class="swiper-slide container">
                 <img src="../assets/img/home1.jpg" alt="">
                 <div class="home-text">
-                    <span>Marvel Universe</span>
-                    <h1>Venom: Let There <br> Be Carnage</h1>
-                    <a href="#" class="btn">Book Now</a>
+                    <span>Марвелийн ертөнц</span>
+                    <h1>Хор: Let There <br> Хохирол болох</h1>
+                    <a href="#" class="btn">Одоо захиалаарай</a>
                     <a href="" class="play">
                         <i class="bx bx-play"></i>
                     </a>
@@ -18,9 +18,9 @@
             <div class="swiper-slide container">
                 <img src="../assets/img/home2.jpg" alt="">
                 <div class="home-text">
-                    <span>Marvel Universe</span>
-                    <h1>Avengers: <br> Infinity Wars</h1>
-                    <a href="#" class="btn">Book Now</a>
+                    <span>Марвелийн ертөнц</span>
+                    <h1>Өшөө авагчид: <br> Хязгааргүйн дайн</h1>
+                    <a href="#" class="btn">Одоо захиалаарай</a>
                     <a href="" class="play">
                         <i class="bx bx-play"></i>
                     </a>
@@ -30,9 +30,9 @@
             <div class="swiper-slide container">
                 <img src="../assets/img/home3.jpg" alt="">
                 <div class="home-text">
-                    <span>Marvel Universe</span>
-                    <h1>Spider-Man : <br> Far From Home</h1>
-                    <a href="#" class="btn">Book Now</a>
+                    <span>Марвелийн ертөнц</span>
+                    <h1>Хүн аалз : <br> Гэрээсээ хол</h1>
+                    <a href="#" class="btn">Одоо захиалаарай</a>
                     <a href="" class="play">
                         <i class="bx bx-play"></i>
                     </a>
@@ -47,7 +47,7 @@
     <section style="background-color : black;" class="movies" id="movies">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="heading">Opening This Week</h2>
+                <h2 class="heading">Энэ долоо хоногт нээлтээ хийнэ</h2>
             </div>
             <div class="row">
                 <?php $i = 1; ?>
@@ -65,7 +65,7 @@
                                 <?php echo $row['genre_name'];?>
                             </p>
                             <a href="index.php?p=movie-player&id=<?php echo $row["id"];?>" class="btn
-                                btn-primary">Play</a>
+                                btn-primary">Үзэх</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
     <section style="background-color : black;" class="coming" id="coming">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="heading">Coming Soon This Year's</h2>
+                <h2 class="heading">Удахгүй энэ жил</h2>
             </div>
             <div class="row">
                 <?php $i = 1; ?>
@@ -99,7 +99,7 @@
                                 <?php echo $row['genre_name'];?>
                             </p>
                             <a href="index.php?p=trailer-player&id=<?php echo $row["id"];?>" class="btn
-                                btn-primary">Watch Trailer</a>
+                                btn-primary">Трейлер үзэх</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
     <section class="subs" id="subs">
         <form class="form-inline my-2 my-lg-0 subscription">
             <input class="form-control mr-sm-2" type="search" placeholder="Enter Your Email..." aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 search-btn" type="submit">Subscription</button>
+            <button class="btn btn-outline-success my-2 my-sm-0 search-btn" type="submit">Захиалга</button>
         </form>
     </section>
 </div>

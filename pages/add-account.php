@@ -25,17 +25,17 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Panel Admin | Forms Account
+                Самбарын админ | Бүртгэлийн маягт
                 </h1>
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i> <a href="admin.php">Dashboard</a>
+                        <i class="fa fa-dashboard"></i> <a href="admin.php">Хяналтын самбар</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-table"></i> <a href="admin.php?p=registry-admin">Register Account</a>
+                        <i class="fa fa-table"></i> <a href="admin.php?p=registry-admin">Бүртгэл бүртгүүлэх</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-edit"></i> Forms Add Account
+                        <i class="fa fa-edit"></i> Бүртгэл нэмэх маягт
                     </li>
                 </ol>
             </div>
@@ -46,19 +46,19 @@
                     <form action="admin.php?p=add-account" method="POST">
                         <table id="table-input">
                             <tr>
-                                <td><label for="username">Username</label></td>
+                                <td><label for="username">Хэрэглэгчийн нэр</label></td>
                                 <td><input class="form-control" type="text" name="username" id="username" required></td>
                             </tr>
                             <tr>
-                                <td><label for="password">Password</label></td>
+                                <td><label for="password">Нууц үг</label></td>
                                 <td><input class="form-control" type="password" name="password" id="password" required></td>
                             </tr>
                             <tr>
-                                <td><label for="level">Level</label></td>
+                                <td><label for="level">Түвшин</label></td>
                                 <td><input class="form-control" type="level" name="level" id="level" required></td>
                             </tr>
                             <tr>
-                                <td><button class="btn btn-primary btn-lg" type="submit" name="submit">Add Account</button></td>
+                                <td><button class="btn btn-primary btn-lg" type="submit" name="submit">Данс нэмэх</button></td>
                             </tr>
                         </table>
                     </form>

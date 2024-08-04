@@ -51,12 +51,12 @@
 
     <div class="row description">
       <div class="col-lg-12">
-        <h2>Movie :
+        <h2>Кино :
           <?php echo $movie["mv_name"];?> | Release Date :
           <?php echo $movie["meta_description"];?>
         </h2>
-        <h5> <i>Genre : <?php echo $movie["genre_name"];?> | Category : <?php echo $movie["category_name"];?></i> </h5>
-        <p>Description Movie :</p>
+        <h5> <i>Төрөл : <?php echo $movie["genre_name"];?> | Ангилал : <?php echo $movie["category_name"];?></i> </h5>
+        <p>Киноны тайлбар :</p>
         <p>
           <?php echo $movie["mv_des"];?>
         </p>
@@ -65,7 +65,7 @@
 
     <div class="row">
       <div class="col-lg-12">
-      <a class="btn btn-warning" type="submit" role="button" href="index.php?p=#home">	&#8592; Back To Select Another Movie</a></td>
+      <a class="btn btn-warning" type="submit" role="button" href="index.php?p=#home">	&#8592; Өөр кино сонгох руу буцах</a></td>
       </div>
     </div>
 

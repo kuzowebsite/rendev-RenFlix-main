@@ -4,14 +4,14 @@
         <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Bootstrap Elements
+                        Bootstrap элементүүд
                         </h1>
                         <ol class="breadcrumb">
                             <li>
-                                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                                <i class="fa fa-dashboard"></i>  <a href="index.html">Хяналтын самбар</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-desktop"></i> Bootstrap Elements
+                                <i class="fa fa-desktop"></i> Bootstrap элементүүд
                             </li>
                         </ol>
                     </div>
@@ -20,71 +20,71 @@
 
                 <!-- Main jumbotron for a primary marketing message or call to action -->
                 <div class="jumbotron">
-                    <h1>Hello, world!</h1>
-                    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                    <h1>Сайн байна уу</h1>
+                    <p>Movie-BOX Кино сайтаас түргэн шуурай хүссэн кино гоо үзээрэй</p>
                     <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
                     </p>
                 </div>
 
                 <div class="page-header">
-                    <h1>Buttons</h1>
+                    <h1>Товчлуурууд</h1>
                 </div>
                 <p>
-                    <button type="button" class="btn btn-lg btn-default">Default</button>
-                    <button type="button" class="btn btn-lg btn-primary">Primary</button>
-                    <button type="button" class="btn btn-lg btn-success">Success</button>
-                    <button type="button" class="btn btn-lg btn-info">Info</button>
-                    <button type="button" class="btn btn-lg btn-warning">Warning</button>
-                    <button type="button" class="btn btn-lg btn-danger">Danger</button>
-                    <button type="button" class="btn btn-lg btn-link">Link</button>
+                    <button type="button" class="btn btn-lg btn-default">Өгөгдмөл</button>
+                    <button type="button" class="btn btn-lg btn-primary">Үндсэн</button>
+                    <button type="button" class="btn btn-lg btn-success">Амжилт</button>
+                    <button type="button" class="btn btn-lg btn-info">Мэдээлэл</button>
+                    <button type="button" class="btn btn-lg btn-warning">Анхааруулга</button>
+                    <button type="button" class="btn btn-lg btn-danger">аюул</button>
+                    <button type="button" class="btn btn-lg btn-link">Холбоос</button>
                 </p>
                 <p>
-                    <button type="button" class="btn btn-default">Default</button>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-link">Link</button>
+                    <button type="button" class="btn btn-default">Өгөгдмөл</button>
+                    <button type="button" class="btn btn-primary">Үндсэн</button>
+                    <button type="button" class="btn btn-success">Амжилт</button>
+                    <button type="button" class="btn btn-info">Мэдээлэл</button>
+                    <button type="button" class="btn btn-warning">Анхааруулга</button>
+                    <button type="button" class="btn btn-danger">аюул</button>
+                    <button type="button" class="btn btn-link">Холбоос</button>
                 </p>
                 <p>
-                    <button type="button" class="btn btn-sm btn-default">Default</button>
-                    <button type="button" class="btn btn-sm btn-primary">Primary</button>
-                    <button type="button" class="btn btn-sm btn-success">Success</button>
-                    <button type="button" class="btn btn-sm btn-info">Info</button>
-                    <button type="button" class="btn btn-sm btn-warning">Warning</button>
-                    <button type="button" class="btn btn-sm btn-danger">Danger</button>
-                    <button type="button" class="btn btn-sm btn-link">Link</button>
+                    <button type="button" class="btn btn-sm btn-default">Өгөгдмөл</button>
+                    <button type="button" class="btn btn-sm btn-primary">Үндсэн</button>
+                    <button type="button" class="btn btn-sm btn-success">Амжилт</button>
+                    <button type="button" class="btn btn-sm btn-info">Мэдээлэл</button>
+                    <button type="button" class="btn btn-sm btn-warning">Анхааруулга</button>
+                    <button type="button" class="btn btn-sm btn-danger">аюул</button>
+                    <button type="button" class="btn btn-sm btn-link">Холбоос</button>
                 </p>
                 <p>
-                    <button type="button" class="btn btn-xs btn-default">Default</button>
-                    <button type="button" class="btn btn-xs btn-primary">Primary</button>
-                    <button type="button" class="btn btn-xs btn-success">Success</button>
-                    <button type="button" class="btn btn-xs btn-info">Info</button>
-                    <button type="button" class="btn btn-xs btn-warning">Warning</button>
-                    <button type="button" class="btn btn-xs btn-danger">Danger</button>
-                    <button type="button" class="btn btn-xs btn-link">Link</button>
+                    <button type="button" class="btn btn-xs btn-default">Өгөгдмөл</button>
+                    <button type="button" class="btn btn-xs btn-primary">Үндсэн</button>
+                    <button type="button" class="btn btn-xs btn-success">Амжилт</button>
+                    <button type="button" class="btn btn-xs btn-info">Мэдээлэл</button>
+                    <button type="button" class="btn btn-xs btn-warning">Анхааруулга</button>
+                    <button type="button" class="btn btn-xs btn-danger">аюул</button>
+                    <button type="button" class="btn btn-xs btn-link">Холбоос</button>
                 </p>
 
                 <div class="page-header">
-                    <h1>Thumbnails</h1>
+                    <h1>Өнгөц зураг</h1>
                 </div>
                 <img class="img-thumbnail" src="http://placehold.it/400x400" alt="">
 
                 <div class="page-header">
-                    <h1>Dropdown menus</h1>
+                    <h1>Унждаг цэсүүд</h1>
                 </div>
                 <div class="dropdown theme-dropdown clearfix">
-                    <a id="dropdownMenu1" href="#" role="button" class="sr-only dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <a id="dropdownMenu1" href="#" role="button" class="sr-only dropdown-toggle" data-toggle="dropdown">Унтраах цэс <b class="caret"></b></a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a>
+                        <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="#">Үйлдэл</a>
                         </li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Өөр нэг үйлдэл</a>
                         </li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Энд өөр зүйл байна</a>
                         </li>
                         <li role="presentation" class="divider"></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Тусгаарлагдсан холбоос</a>
                         </li>
                     </ul>
                 </div>
@@ -97,7 +97,7 @@
                     <div class="container">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
+                                <span class="sr-only">Навигацыг асаах/унтраах</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -106,11 +106,11 @@
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Home</a>
+                                <li class="active"><a href="#">Нүүр</a>
                                 </li>
-                                <li><a href="#about">About</a>
+                                <li><a href="#about">тухай</a>
                                 </li>
-                                <li><a href="#contact">Contact</a>
+                                <li><a href="#contact">Холбоо барих</a>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -148,11 +148,11 @@
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Home</a>
+                                <li class="active"><a href="#">Нүүр</a>
                                 </li>
-                                <li><a href="#about">About</a>
+                                <li><a href="#about">тухай</a>
                                 </li>
-                                <li><a href="#contact">Contact</a>
+                                <li><a href="#contact">Холбоо барих</a>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>

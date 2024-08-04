@@ -64,24 +64,24 @@ if($_SESSION['level']=="admin"){
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.php?p=#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php?p=#home">Нүүр<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?p=#movies">Movies</a>
+                        <a class="nav-link" href="index.php?p=#movies">Кино</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?p=#coming">Coming Soon</a>
+                        <a class="nav-link" href="index.php?p=#coming">Тун удахгүй</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?p=#subs">Subscription</a>
+                        <a class="nav-link" href="index.php?p=#subs">Захиалга</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0 search">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search Movie..." aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0 search-btn" type="submit">Search</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0 search-btn" type="submit">Хайх</button>
                 </form>
                 <a href="../logout.php"><button type="submit" class="btn btn-logout">
-                        <?= $_SESSION["username"];?> | Logout &#8594;
+                        <?= $_SESSION["username"];?> | Гарах &#8594;
                     </button></a>
             </div>
         </nav>
@@ -107,9 +107,8 @@ if($_SESSION['level']=="admin"){
         }
         ?>
         <footer>
-        <span>Copyright &copy; 2022
-            <a href="www.youtube.com/c/STech04">RenFlix</a> | All rights
-            reserved</span>
+        <span>Copyright &copy; 2024
+            <a href="www.youtube.com/c/STech04">Movie-BOX</a> | KuZo</span>
     </footer>
     </div> 
     <script src="./script.js"></script>

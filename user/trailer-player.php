@@ -11,7 +11,7 @@
   <section class="player">
     <div class="row">
       <div class="col-lg-12">
-        <h1>RenFlix Movie -
+        <h1>Movie-BOX -
           <?php echo $new_movie["mv_name"];?> Trailer
         </h1>
       </div>
@@ -20,7 +20,7 @@
     <div class="row">
       <div class="col-sm-4">
         <p><i class="fa fa-fw fa-tags"></i>
-          Tags :<i>
+        Шошго :<i>
             <?php echo $new_movie["mv_tag"];?>
           </i></p>
       </div>
@@ -42,11 +42,11 @@
     <div class="row description">
       <div class="col-lg-12">
         <h2>
-          <?php echo $new_movie["mv_name"];?> | Release Date :
+          <?php echo $new_movie["mv_name"];?> | Гарсан огноо :
           <?php echo $new_movie["meta_description"];?>
         </h2>
         <h5> <i>Genre : <?php echo $new_movie["genre_name"];?> | Category : <?php echo $new_movie["category_name"];?></i> </h5>
-        <p>Description Movie :</p>
+        <p>Киноны тайлбар :</p>
         <p>
           <?php echo $new_movie["mv_des"];?>
         </p>
@@ -55,7 +55,7 @@
 
     <div class="row">
       <div class="col-lg-12">
-      <a class="btn btn-warning" type="submit" role="button" href="index.php?p=#home">	&#8592; Back To Select Another Movie</a></td>
+      <a class="btn btn-warning" type="submit" role="button" href="index.php?p=#home">	&#8592; Өөр кино сонгох руу буцах</a></td>
       </div>
     </div>
 
